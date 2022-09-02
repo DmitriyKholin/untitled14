@@ -11,11 +11,12 @@ public class Main {
     public static void leapYear(int enterYear) {
         int ourYear = enterYear;
         if (ourYear % 4 == 0 && ourYear % 100 != 0 || ourYear % 400 == 0) {
-            System.out.println(ourYear + " год является високосным");
+            System.out.println(ourYear + " год  является високосным");
         } else {
-            System.out.println(ourYear + " год не високосный");
+            System.out.println(ourYear + " год  невисокосный");
         }
     }
+
 
     // Задание 2
     public static void application(int device, int numberYear) {
